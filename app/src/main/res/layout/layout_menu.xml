@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mdpi">
+
+    <TableLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- row 1 -->
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btnLight"
+                android:src="@drawable/custom_icon_flashlight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btnNeon"
+                android:src="@drawable/custom_icon_neon"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btnPolice"
+                android:src="@drawable/custom_icon_police"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                />
+        </TableRow>
+
+        <!-- row 2 -->
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btnTraffic"
+                android:src="@drawable/custom_icon_traffic"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btnWarning"
+                android:src="@drawable/custom_icon_warning"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btnFlashLight"
+                android:src="@drawable/custom_icon_flashlight1"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

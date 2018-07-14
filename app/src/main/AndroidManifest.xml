@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nhathuy.flashlight">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.Camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_flashlight"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivity"
+            android:label="Menu Flash Light"></activity>
+
+        <activity
+            android:name=".LightActivity"
+            android:label="Light"></activity>
+
+        <activity
+            android:name=".NeonActivity"
+            android:label="Neon"></activity>
+
+        <activity
+            android:name=".WarningActivity"
+            android:label="Warning"></activity>
+
+        <activity
+            android:name=".TrafficActivity"
+            android:label="Traffic"></activity>
+
+        <activity
+            android:name=".PoliceActivity"
+            android:label="Police"
+            android:screenOrientation="landscape"></activity>
+
+        <activity android:name=".FlashCameraActivity"
+            android:label="Flash"></activity>
+    </application>
+
+</manifest>
